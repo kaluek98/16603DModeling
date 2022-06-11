@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: chair remodel.ma
-//Last modified: Sat, Jun 11, 2022 02:54:45 PM
+//Last modified: Sat, Jun 11, 2022 02:57:37 PM
 //Codeset: UTF-8
 requires maya "2023";
 requires "mtoa" "5.1.0";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202161415-df43006fd3";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "6A49BD3C-3F4A-A9DD-7D76-33884C32CC22";
+fileInfo "UUID" "61E3EF7E-3F48-D108-D03C-EDBF7296033B";
 createNode transform -s -n "persp";
 	rename -uid "0223F8A8-864E-6F44-0361-47ABCEDC2BFC";
 	setAttr ".v" no;
