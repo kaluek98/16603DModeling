@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
-//Name: fishretopo.ma
-//Last modified: Fri, Jul 22, 2022 09:23:42 AM
+//Name: Fish for sketchfab.ma
+//Last modified: Fri, Jul 22, 2022 09:25:38 AM
 //Codeset: UTF-8
 requires maya "2023";
 requires "mtoa" "5.1.0";
@@ -10,11 +10,11 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202202161415-df43006fd3";
 fileInfo "osv" "Mac OS X 10.16";
-fileInfo "UUID" "FCC255A9-4344-7EA5-AB3D-619C5EE9F766";
+fileInfo "UUID" "AE3719E6-3D4C-1F92-0BEB-8C9863B20FC8";
 createNode transform -s -n "persp";
 	rename -uid "79051DEC-CB4E-485F-8194-A0A8B227D56B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.1520626577771473 14.34502036310942 30.401179845738952 ;
+	setAttr ".t" -type "double3" -3.902907731716946 18.527478874454964 43.362270699187597 ;
 	setAttr ".r" -type "double3" -8297.8963179116199 1800.8143207898199 9359.1108675356209 ;
 	setAttr ".rp" -type "double3" 1.7763568394002505e-15 -1.7763568394002505e-15 0 ;
 	setAttr ".rpt" -type "double3" -9.0983860519190921e-16 -6.9949018578090838e-15 2.9906015593273472e-15 ;
@@ -22,7 +22,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E777BAAF-2646-2B79-16D7-08AD6B8D4D8A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 32.351792520850118;
+	setAttr ".coi" 45.973279718937455;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -9588,4 +9588,4 @@ connectAttr "bowlglass.msg" ":defaultShaderList1.s" -na;
 connectAttr "Fish.msg" ":defaultShaderList1.s" -na;
 connectAttr "SkullBone.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of fishretopo.ma
+// End of Fish for sketchfab.ma
